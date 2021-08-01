@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>My first Heading</h1>
+      <ul>
+        <li><a href = '#'>Home </a></li>
+        <li><a href = '#'>Home </a></li>
+        <li><a href = '#'>Home </a></li>
+      </ul>
+      
+    </header>
+    <main class='osnovni'>
+        <hr />
+        <h2 class="header">This is main section</h2>
+        <p>
+        Novak Đoković (Beograd, 22. maj 1987) srpski je profesionalni teniser.
+        Na prvom mestu ATP liste je proveo 331 nedelju što je najduži period u
+        istoriji otvorene ere. Mnogi teniski kritičari, bivši igrači i saigrači
+        smatraju Đokovića jednim od najboljih tenisera u istoriji
+        </p>
+        <img height='700px'
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Novak_Djokovic_Wimbledon_2017.jpg/250px-Novak_Djokovic_Wimbledon_2017.jpg"
+        />
+        <p>
+        Profesionalno igra od 2003. godine. U dosadašnjoj karijeri osvojio je
+        dvadeset titula na grend slem turnirima: devet puta Otvoreno prvenstvo
+        Australije, šest puta Vimbldon, tri puta Otvoreno prvenstvo SAD i dva
+        puta Rolan Garos. Jedan je od petorice tenisera u Open eri koji su
+        osvojili grend slem karijere. Osvajanjem Rolan Garosa 2016. postao je
+        prvi teniser, nakon Roda Lejvera 1969, sa pobedama na sva četiri grend
+        slem turnira u nizu i jedini koji je to ostvario na tri različite
+        podloge. Jedini je teniser u Open eri koji je osvojio svaki grend slem
+        turnir minimum dva puta. Drži rekord po osvojenim trofejima na Otvorenom
+        prvenstvu Australije i jedini je koji je trijumfovao tri puta po dva
+        puta zaredom u Open eri. Rekorder je i po zaradi od turnira u muškom
+        singlu.
+        </p>
+        <p>Novak Djokovic je osvojio sva cetiri GrandSlam turnira:</p>
+        <ul>
+          <li>Wimbldon</li>
+          <li>AO</li>
+          <li>Roladnd Garos</li>
+          <li>Us Open</li>
+        </ul>
+
+        <table>
+          <tr>
+            <th>Grand Slam</th>
+            <th>Broj titula</th>
+          </tr>
+          <tr>
+            <td>Wimbldon</td>
+            <td>7</td>
+          </tr>
+          <tr>
+           <td>RG</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>US</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>AO</td>
+            <td>10</td>
+          </tr>
+        </table>
+        <hr />
+      </main>
+      <aside class='sporedni'>
+        <h2>Aside section</h2>
+        <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Novak_Djokovic_Wimbledon_2017.jpg/250px-Novak_Djokovic_Wimbledon_2017.jpg"
+        />
+
+        <form>
+          <label for="ime"> Unesi ime</label> <br />
+          <input type="text" id="ime" /><br />
+          <label for="prezime"> Unesi prezime</label><br />
+          <input type="text" id="prezime" /><br />
+          <label for ='opis'>Napisi nesto o sebi</label><br>
+          <textarea cols = '30' rows = '10 ' placeholder = 'Ukratko o sebi' id = 'opis'></textarea><br>
+
+
+          <label for="grad"> Odabrati grad</label> <br />
+          <select select id="grad" name="">
+          <optgroup label="Gradovi u Srbiji">
+          <option>Beograd</option>
+          <option>Krusevac</option>
+          <option>Novi Sad</option>
+          </optgroup>
+          </select>
+          <hr />
+          <label for ''>Izaberi pol</label><br>
+          <label for = 'muskarac'>Muski pol</label>
+          <input type = 'radio' value = 'muski' id = 'muskarac'  name = 'muskarac' >
+          <label for = 'zena'> Zenski pol</label>
+          <input type = 'radio' value = 'zenski' id = 'zena' name= 'zena' >
+          <hr>
+        <!-- Da li FOR atribut u label tagu mora da bude ekvivalentan id atributu u input tagu -->
+          <label for = ''> Course      </label><br>
+          <input type= 'checkbox' id = 'kurs1' name= 'HTML' value= 'HTML'>
+          <label for='kurs1'> HTML</label> <br>
+          <input type = 'checkbox' id = 'kurs2' name='CSS' value='CSS'>
+          <label for = 'kurs2'>CSS</label><br>
+          <input type = 'checkbox' id = 'kurs3' name= 'JavaScript' value= 'JavaScript'>
+          <label for = 'kurs3'> JavaScript</label><br>
+          <hr>
+          <input type='submit' value='klikni da posaljes'>
+        </form>
+      </aside>  
+    
+  </body>
+</html>

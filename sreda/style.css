@@ -1,0 +1,50 @@
+.header {
+  text-align: center;
+  display: block;
+  /* position:absolute
+  z-index: 3; */
+}
+
+form {
+  border: solid black 5px;
+  text-align: center;
+}
+
+input[type="text"] {
+  background-color: red;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+textarea {
+  background-color: lightblue;
+}
+textarea:focus {
+  background-color: lightgreen;
+}
+
+header li {
+  display: inline-block;
+}
+
+label {
+  color: blue;
+}
+
+.osnovni {
+  display: inline-block;
+  width: 65%;
+}
+
+.sporedni {
+  display: inline-block;
+  width: 25%;
+  float: left;
+}
+
+img {
+  width: 100%;
+  /* height: 70%; */
+}
