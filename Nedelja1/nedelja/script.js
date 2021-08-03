@@ -101,3 +101,4 @@ if (e < f && e < g && e < h) {
     console.log(`Na racunu nemate dovoljno novca, potrebno vam je jos ${Math.abs(kolicina_novca - vrednost)}`);
   }
 }
+
