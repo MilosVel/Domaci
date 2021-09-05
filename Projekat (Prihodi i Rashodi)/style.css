@@ -1,0 +1,21 @@
+header {
+  display: block;
+  height: 30vh;
+  background-color: aquamarine;
+}
+
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 40%;
+}
+
+
+/* .btn {
+  color: red;
+  display: hidden;
+} */

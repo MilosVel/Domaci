@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Rashodi i prihodi</h1>
+    <div>
+      <button>Budzet</button>
+      <button id='budzet'>0</button>
+    </div>
+
+    <div>
+      <button> Prihodi</button><button id='prihodi'> 0</button>
+    </div>
+
+    <div>
+      <button> Rashodi</button><button id='rashodi'>0</button><button id='procenat'>%</button>
+    </div>
+
+  </header>
+  <form id='forma'>
+    <select name="Prihod ili rashod" id="dropdown">
+      <option value="" selected disabled>--Izaberite---</option>
+      <option value="prihod">prihod</option>
+      <option value="rashod">rashod</option>
+    </select>
+
+    <input id='opis' placeholder='opis'>
+
+    <input id='iznos' placeholder='unseite iznos'>
+
+    <button id='potvrdi'>Potvrdi</button>
+  </form>
+
+
+  <div id='divPrihodi' class='inline-block'>
+    <p> Prihodi</p>
+    <ul id='ul-prihodi'>
+      <!-- <li></li>
+      <li></li>
+      <li></li>
+      <li></li> -->
+    </ul>
+
+  </div>
+
+  <div id='divRashodi' class='inline-block'>
+    <p> Rashodi</p>
+    <ul id='ul-rashodi'>
+      <!-- <li></li>
+      <li></li>
+      <li></li>
+      <li></li> -->
+
+    </ul>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
